@@ -1,0 +1,69 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+
+
+input{
+    display: none;
+}
+#ЧУЙ:checked~.ЫСЫК-КОЛ,
+#ЧУЙ:checked~.НАРЫН,
+#ЧУЙ:checked~.ТАЛАС,
+#ЧУЙ:checked~.ОШ,
+#ЧУЙ:checked~.ДЖАЛАЛ-АБАД,
+#ЧУЙ:checked~.БАТКЕН{
+    display: none;
+}
+
+#ЫСЫК-КОЛ:checked~.ЧУЙ,
+#ЫСЫК-КОЛ:checked~.НАРЫН,
+#ЫСЫК-КОЛ:checked~.ТАЛАС,
+#ЫСЫК-КОЛ:checked~.ОШ,
+#ЫСЫК-КОЛ:checked~.ДЖАЛАЛ-АБАД,
+#ЫСЫК-КОЛ:checked~.БАТКЕН{
+    display: none;
+}
+#НАРЫН:checked~.ЧУЙ,
+#НАРЫН:checked~.ЫСЫК-КОЛ,
+#НАРЫН:checked~.ТАЛАС,
+#НАРЫН:checked~.ОШ,
+#НАРЫН:checked~.ДЖАЛАЛ-АБАД,
+#НАРЫН:checked~.БАТКЕН{
+    display: none;
+}
+#ТАЛАС:checked~.ЧУЙ,
+#ТАЛАС:checked~.ЫСЫК-КОЛ,
+#ТАЛАС:checked~.НАРЫН,
+#ТАЛАС:checked~.ОШ,
+#ТАЛАС:checked~.ДЖАЛАЛ-АБАД,
+#ТАЛАС:checked~.БАТКЕН{
+    display: none;
+}
+#ОШ:checked~.ЧУЙ,
+#ОШ:checked~.ЫСЫК-КОЛ,
+#ОШ:checked~.НАРЫН,
+#ОШ:checked~.ТАЛАС,
+#ОШ:checked~.ДЖАЛАЛ-АБАД,
+#ОШ:checked~.БАТКЕН{
+    display: none;
+}
+#ДЖАЛАЛ-АБАД:checked~.ЧУЙ,
+#ДЖАЛАЛ-АБАД:checked~.ЫСЫК-КОЛ,
+#ДЖАЛАЛ-АБАД:checked~.НАРЫН,
+#ДЖАЛАЛ-АБАД:checked~.ТАЛАС,
+#ДЖАЛАЛ-АБАД:checked~.ОШ,
+#ДЖАЛАЛ-АБАД:checked~.БАТКЕН{
+    display: none;
+}
+#БАТКЕН:checked~.ЧУЙ,
+#БАТКЕН:checked~.ЫСЫК-КОЛ,
+#БАТКЕН:checked~.НАРЫН,
+#БАТКЕН:checked~.ТАЛАС,
+#БАТКЕН:checked~.ОШ,
+#БАТКЕН:checked~.ДЖАЛАЛ-АБАД{
+    display: none;
+}
